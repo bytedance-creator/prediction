@@ -12,7 +12,7 @@ from lightgbm import LGBMRegressor
 
 st.set_page_config(page_title='电影票房预测系统', page_icon='🎬', layout='wide')
 
-FILE_PATH = r".\movie_merged.xlsx"
+FILE_PATH = r"movie_merged.xlsx"
 
 @st.cache_data
 def load_data():
